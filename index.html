@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Link css-->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Rabbit</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="#!"><img src="./assets/images/logo.png" alt="Rabbit" class="header__logo"></a>          
+                <div class="header__actions">
+                    <nav>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Introduction</a></li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Game NFT</a></li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Wallet</a></li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Tokenomics</a></li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Roadmap</a></li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">Rabbitpaper</a></li>
+                        </ul>
+                    </nav>
+                    <select name="language" id="language" aria-label="Select a language">
+                        <option value="en">EN</option>
+                        <option value="vi">VI</option>
+                    </select>
+                    <a href="#!" class="header__btn--connect">
+                        Connect wallet
+                        <img src="./assets/icons/wallet-black.svg" alt="" class="header__btn-icon">
+                    </a> 
+                </div>                 
+            </div>
+            <div class="header__bottom">
+                <section class="web3">
+                    <h1 class="web3__heading">RABBIT WEB3</h1>
+                    <ul class="web3__list">
+                        <li class="web3__item">In the ever-evolving world of cryptocurrency, new projects are constantly appearing,</li>
+                        <li class="web3__item">Each project has its own value propositions and aspirations,</li>
+                        <li class="web3__item">The project certainly caught the attention of the crypto community</li>
+                        <li class="web3__item">Rabbit Mon Inspired by the remarkable journey of SHIB and bonk , pepe</li>
+                        <li class="web3__item">Rabbit mon aims to not only recreate but also outperform its predecessors “ Nu Po Go Di “</li>
+                    </ul>
+                    <div class="web3__cta">
+                        <a href="#!" class="web3__btn">Whitepaper</a>
+                        <a href="#!" class="web3__btn">Audit</a>
+                    </div>
+                </section>
+                <section class="stage1">
+                    <form action="#!" class="stage1__form">
+                        <h3 class="form__heading">RABBIT Presale Stage 1</h3>
+                        <div class="form__exchange-rate">
+                            <div class="exchange-rate__rabbit">
+                                <span class="exchange-rate__text">1 RABBIT = <strong>$0.080</strong></span>
+                                <span class="exchange-rate__text">Next stage price = <strong>$0.090</strong></span>
+                            </div>
+                            <div class="exchange-rate__usdt">
+                                <span class="exchange-rate__text">USDT raised: <strong>$12,932,452 / $13,150,000</strong></span>
+                                <span class="exchange-rate__text">Token sold: <strong>$12,932,452 / $13,150,000</strong></span>
+                            </div>
+                        </div>
+                        <div class="form__actions">
+                            <button class="form__btn">
+                                <img src="./assets/icons/bnb.svg" alt="BNB" class="logo-bnb">
+                                <div class="tag">
+                                    <span class="tag__bold">BNB</span>
+                                    <span class="tag__normal">bep20</span>
+                                </div>
+                            </button>
+                            <button class="form__btn btn-USDT">
+                                <img src="./assets/icons/usdt.svg" alt="USDT" class="logo-usdt">
+                                <div class="tag">
+                                    <span class="tag__bold">USDT</span>
+                                    <span class="tag__normal">BEP20</span>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="input">
+                            <div class="input-pay">
+                                <div class="input-pay__wrapper">
+                                    <label class="form-label" for="input-pay__BNB">Amount in BNB you pay</label>
+                                    <input class="form-value" type="number" name="amount-pay" id="input-pay__BNB" placeholder="00" step="0.1">
+                                </div>
+                                <button class="input-pay__max">MAX</button>
+                            </div>
+                            <div class="input-receive">
+                                <div class="RAR-receive__wrapper">
+                                    <label class="form-label" for="RAR-receive">Amount in RAB you receive</label>
+                                    <input class="form-value" type="text" id="RAR-receive" placeholder="00" readonly>
+                                </div>
+                            </div>                        
+                        </div>
+                        <button class="stage1__btn">Buy</button>
+                        <a href="#!" class="stage1__link">View Presale smart contract address</a>
+                    </form>
+                </section>
+            </div>            
+        </div>
+    </header>
+    <main>
+        <section class="Rabbit-NFT">
+            <div class="container">
+                <h2 class="Rabbit-NFT__heading">RABBIT GAME NFT</h2>
+                <p class="Rabbit-NFT__desc">Decentralized Virtual Game World Platform.</p>
+                <div class="Rabbit-NFT__list">
+                    <div class="Rabbit-NFT__img-bg">
+                        <img src="./assets/images/rabbit_Purple.png" alt="Funny Cheeky Rabbit" class="Rabbit-thumb">                        
+                    </div>
+                    <div class="Rabbit-NFT__img-bg">
+                        <img src="./assets/images/rabbit_Green.png" alt="Funny Cheeky Rabbit" class="Rabbit-thumb">
+                    </div>
+                    <div class="Rabbit-NFT__img-bg">
+                        <img src="./assets/images/rabbit_Orange.png" alt="Funny Cheeky Rabbit" class="Rabbit-thumb">
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+        <section class="webWallet">
+            <div class="container">
+                <div class="webWallet__wrapper">
+                    <div class="webWallet__media">
+                        <img src="./assets/images/are.png" alt="devices" class="webWallet__img">
+                    </div>
+                    <div class="webWallet__content">
+                        <div class="webWallet__text">
+                            <h2 class="webWallet__heading">RABBIT WEB3 WALLET</h2>
+                            <p class="webWallet__desc">Rabbit Web3 Wallet is a self-custody crypto wallet within the Rabbit app, designed to empower users in the realm of decentralized finance (DeFi). Serving as a digital gateway to blockchain-based applications (dApps), it offers users a secure and streamlined method to manage their cryptocurrencies, execute token swaps across multiple chains, earn yields, and interact with a variety of blockchain platforms</p>
+                        </div>
+                        <div class="webWallet__lists">
+                            <div class="webWallet__item">
+                                <div class="webWallet__icon-bg">
+                                    <img src="./assets/icons/box.svg" alt="RABBITChain Blockchain" class="webWallet__icon">
+                                </div>
+                                <div class="webWallet__title">RABBITChain Blockchain</div>
+                            </div>
+                            <div class="webWallet__item">
+                                <div class="webWallet__icon-bg">
+                                    <img src="./assets/icons/wallet.svg" alt="Multicurrency Wallet" class="webWallet__icon">
+                                </div>
+                                <div class="webWallet__title">Multicurrency Wallet</div>
+                            </div>
+                            <div class="webWallet__item">
+                                <div class="webWallet__icon-bg">
+                                    <img src="./assets/icons/hierarchy-3.svg" alt="Defi Exchange" class="webWallet__icon">
+                                </div>
+                                <div class="webWallet__title">Defi Exchange</div>
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="product">
+                    <div class="product__wrapper">
+                        <div class="product__intro">
+                            <h3 class="product__heading product__heading-small">Predict Now</h3>
+                            <h2 class="product__heading">Total prize pool up to $353,333</h2>
+                        </div>
+                        <!-- ---------------------------------Table start------------------------------------- -->
+                        <div class="product__detail">
+                            <!-- ----------------------------------------------Column 1-------------------------------------------- -->
+                            <div class="detail__col">
+                                <div class="detail__top">
+                                    <h4 class="detail__heading">Gameplay</h4>
+                                </div>
+                                <div class="detail__bottom">
+                                    <div class="detail__row">
+                                        <div class="detail__subtitle">Based on the 10 exchanges below, make your predictions:</div>
+                                        <ul class="detail__list">
+                                            <li class="detail__item"><strong class="detail__bold">Phase 1: </strong>Which exchange will rabbit IPO on first?</li>
+                                            <li class="detail__item"><strong class="detail__bold">Phase 2: </strong>Which exchange will rabbit IPO on last?</li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail__row row-items">
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=bitget.svg" alt="BITGET" class="brand-icon">
+                                            <span class="brand-name">BITGET</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=bitrue.svg" alt="BITRUE" class="brand-icon">
+                                            <span class="brand-name">BITRUE</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=kucoin.svg" alt="KUCOIN" class="brand-icon">
+                                            <span class="brand-name">KUCOIN</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=huobi.svg" alt="HUOBI" class="brand-icon">
+                                            <span class="brand-name">HUOBI</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=xt.svg" alt="XT" class="brand-icon">
+                                            <span class="brand-name">XT</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=gate.svg" alt="GATE" class="brand-icon">
+                                            <span class="brand-name">GATE</span>                                            
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=cmc.svg" alt="CMC" class="brand-icon">
+                                            <span class="brand-name">CMC</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=bybit.svg" alt="BYBIT" class="brand-icon">
+                                            <span class="brand-name">BYBIT</span>
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=okx.svg" alt="OKX" class="brand-icon">
+                                            <span class="brand-name">OKX</span>                                            
+                                        </a>
+                                        <a href="#!" class="brand-link">
+                                            <img src="./assets/icons/name=mexc.svg" alt="MEXC" class="brand-icon">
+                                            <span class="brand-name">MEXC</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ----------------------------------------------Column 2-------------------------------------------- -->
+                            <div class="detail__col">
+                                <div class="detail__top">
+                                    <h4 class="detail__heading">Prize</h4>
+                                </div>
+                                <div class="detail__bottom">
+                                    <div class="detail__row">
+                                        <div class="detail__subtitle">Prizes for Phase 1:</div>
+                                        <ul class="detail__list">
+                                            <li class="detail__item">First prize: <strong class="detail__bold">$76.500</strong></li>
+                                            <li class="detail__item">10 consolation prizes: each prize <strong class="detail__bold">$10.000</strong></li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail__row">
+                                        <div class="detail__subtitle">Prizes for Phase 1:</div>
+                                        <ul class="detail__list">
+                                            <li class="detail__item">First prize: <strong class="detail__bold">$76.500</strong></li>
+                                            <li class="detail__item">10 consolation prizes: each prize <strong class="detail__bold">$10.000</strong></li>
+                                        </ul>
+                                    </div> 
+                                </div>                         
+                            </div>
+                            <!-- ----------------------------------------------Column 3-------------------------------------------- -->
+                            <div class="detail__col">
+                                <div class="detail__top">
+                                    <h4 class="detail__heading">How to participate & eligibility for prizes</h4>
+                                </div>
+                                <div class="detail__bottom">
+                                    <div class="detail__row">
+                                        <div class="detail__subtitle">Step 1:</div>
+                                        <div class="detail__subtext">Follow reddit (require)</div>
+                                    </div>
+                                    <div class="detail__row">
+                                        <div class="detail__subtitle">Step 2:</div>
+                                        <div class="detail__subtext">Follow twitter (require)</div>
+                                    </div>
+                                    <div class="detail__row">
+                                        <div class="detail__subtitle">Step 3:</div>
+                                        <div class="detail__subtext">Join the <span class="underline">Telegram</span> group to participate in the predictions</div>
+                                    </div>                                                                
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ---------------------------------Table end------------------------------------- -->
+                    </div>          
+                </div>                           
+            </div>
+        </section>
+
+        <section class="token">
+            <div class="container">
+                <div class="token__wrapper">
+                    <h2 class="token__heading">Tokenomics</h2>
+                    <div class="token__inner">
+                        <div class="token__content">
+                            <div class="token__list">
+                                <div class="token__item">
+                                    <div class="token__name">Token name</div>
+                                    <div class="token__type">RABBIT</div>
+                                </div>
+                                <div class="token__item">
+                                    <div class="token__name">Symbol</div>
+                                    <div class="token__type">RBI</div>
+                                </div>
+                            </div>
+                            <div class="token__list">
+                                <div class="token__item">
+                                    <div class="token__name">Token Type</div>
+                                    <div class="token__type">Meme Game NFT</div>
+                                </div>
+                                <div class="token__item">
+                                    <div class="token__name">Token Standard</div>
+                                    <div class="token__type">BEP 20</div>
+                                </div>
+                            </div>
+                            <div class="token__list">
+                                <div class="token__item">
+                                    <div class="token__name">Contract</div>
+                                    <div class="token__type">----</div>
+                                </div>
+                                <div class="token__item">
+                                    <div class="token__name">Blockchain</div>
+                                    <div class="token__type">BINANCE SMART CHAIN (BSC)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="token__media">
+                            <h4 class="token__heading-chart">TOTAL : 21 MILLION BILLION</h4>
+                            <div class="chart">
+                                <div class="pie-chart"></div>
+                                <div class="label-presale">
+                                    <span class="percentage">30%</span>
+                                    <span class="category">PRESALE</span>
+                                </div>
+                                <div class="leader-presale"></div>
+
+                                <div class="label-airdrop">
+                                    <span class="percentage">3%</span>
+                                    <span class="category">AIRDROP</span>
+                                </div>
+                                <div class="leader-airdrop"></div>                                
+
+                                <div class="label-team">
+                                    <span class="percentage">10%</span>
+                                    <span class="category">TEAM</span>                                    
+                                </div>   
+                                <div class="leader-team"></div>   
+                                
+                                <div class="label-advisor">
+                                    <span class="percentage">7%</span>
+                                    <span class="category">ADVISER</span>                                    
+                                </div>   
+                                <div class="leader-advisor"></div>   
+
+                                <div class="label-stacking">
+                                    <span class="percentage">10%</span>
+                                    <span class="category">STACKING</span>                                    
+                                </div>   
+                                <div class="leader-stacking"></div> 
+                                
+                                <div class="label-cashback">
+                                    <span class="percentage">10%</span>
+                                    <span class="category">CASHBACK</span>                                    
+                                </div>   
+                                <div class="leader-cashback"></div>    
+                                
+                                <div class="label-reserve">
+                                    <span class="percentage">30%</span>
+                                    <span class="category">RESERVE</span>                                    
+                                </div>   
+                                <div class="leader-reserve"></div>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="roadmap">
+            <div class="container">
+                <div class="roadmap__wrapper">
+                    <h2 class="roadmap__heading">Roadmap</h2>
+                    <div class="timeline">
+                        <div class="timeline__left">
+                            <article class="timeline__card">
+                                <div class="timeline__wrapper">
+                                    <h4 class="timeline__title">04 - 06 / 2024</h4>
+                                    <ul class="timeline__list">
+                                        <li class="timeline__item">In a timely manner</li>
+                                        <li class="timeline__item">Medium</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article class="timeline__card">
+                                <div class="timeline__wrapper">
+                                    <h4 class="timeline__title">10 - 12 / 2024</h4>
+                                    <ul class="timeline__list">
+                                        <li class="timeline__item">Public beta launch of RABBIT Game</li>
+                                        <li class="timeline__item">Introduction of gameplay mechanics for earning money</li>
+                                        <li class="timeline__item">Release of multiplayer component mechanism</li>
+                                        <li class="timeline__item">Public launch of RABLAND token sale</li>
+                                        <li class="timeline__item">Release of RABBIT_E 1.0 version</li>
+                                    </ul>                                
+                                </div>
+                            </article> 
+                            <article class="timeline__card">
+                                <div class="timeline__wrapper">
+                                    <h4 class="timeline__title">2026</h4>
+                                    <ul class="timeline__list">
+                                        <li class="timeline__item">Activate games on the control panel</li>
+                                        <li class="timeline__item">Release the collaborative building mode of Game Maker</li>
+                                    </ul>                                
+                                </div>
+                            </article>                                               
+                        </div>
+
+                        <div class="draw">
+                            <div class="draw__main"></div>
+                            <div class="draw__sub sub1">
+                                <span class="dot dot1"></span>
+                            </div>
+                            <div class="draw__sub sub2">
+                                <span class="dot dot2"></span>
+                            </div>
+                            <div class="draw__sub sub3">
+                                <span class="dot dot3"></span>
+                            </div>
+                            <div class="draw__sub sub4">
+                                <span class="dot dot4"></span>
+                            </div>
+                            <div class="draw__sub sub5">
+                                <span class="dot dot5"></span>
+                            </div>
+                            <div class="draw__sub sub6">
+                                <span class="dot dot6"></span>
+                            </div>
+                        </div>
+
+                        <div class="timeline__right">
+                            <article class="timeline__card">
+                                <div class="timeline__wrapper">
+                                    <h4 class="timeline__title">01 - 03 / 2024</h4>
+                                    <ul class="timeline__list">
+                                        <li class="timeline__item">Release RABBIT TOKEN and the Creators Fund</li>
+                                    </ul>                                
+                                </div>
+                            </article>   
+                            <article class="timeline__card">
+                                <div class="timeline__wrapper">
+                                    <h4 class="timeline__title">07 - 09 / 2024</h4>
+                                    <ul class="timeline__list">
+                                        <li class="timeline__item">Launching the pre-sale event of RABLAND token</li>
+                                    </ul>                                
+                                </div>
+                            </article>
+                            <article class="timeline__card">
+                                <div class="timeline__wrapper">
+                                    <h4 class="timeline__title">2025</h4>
+                                    <ul class="timeline__list">
+                                        <li class="timeline__item">Launch of RABDAO Foundation with RABBIT staking</li>
+                                        <li class="timeline__item">Release of Game Maker 1.0</li>
+                                        <li class="timeline__item">Release of RABBITbox game</li>
+                                        <li class="timeline__item">Release of games for smartphones and tablets</li>
+                                        <li class="timeline__item">Release of user-created games with multiplayer mode</li>
+                                    </ul>
+                                </div>
+                            </article>                                                                         
+                        </div>
+                    </div>
+                </div>
+                <div class="giveaway">
+                    <article class="giveaway__wrapper">
+                        <div class="giveaway__inner">
+                            <div class="giveaway__content">
+                                <h2 class="giveaway__heading">Join the giveaway</h2>
+                                <p class="giveaway__desc">Ready to Win Big? Enter the massive $333K RABBIT Finance Giveaway! Participate and complete all the entries for your shot at claiming the grand prize. Don’t miss out on your chance to be the lucky winner!</p>
+                            </div>
+                            <a href="#!" class="giveaway__cta">Join The Giveaway</a>
+                        </div>
+                    </article>   
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__download">
+                    <a href="#!" class="appstore">
+                        <img src="./assets/icons/App Store badge.svg" alt="App store" class="appstore">
+                    </a>
+                    <a href="#!" class="chplay">
+                        <img src="./assets/icons/Play Store badge.svg" alt="Google Play" class="chplay">
+                    </a>
+                </div>
+                <span class="footer__copyright">© Copyright 2024 Tikcex | All Rights Reserved.</span>
+                <div class="footer__contact">
+                    <a href="#!" class="footer__link">
+                        <img src="./assets/icons/mail.svg" alt="Mail" class="mail">
+                    </a>
+                    <a href="#!" class="footer__link">
+                        <img src="./assets/icons/youtube.svg" alt="YouTube" class="youtube">
+                    </a>
+                    <a href="#!" class="footer__link">
+                        <img src="./assets/icons/insta.svg" alt="Instagram" class="insta">
+                    </a>
+                    <a href="#!" class="footer__link">
+                        <img src="./assets/icons/twitter.svg" alt="Twitter" class="twitter">
+                    </a>
+                    <a href="#!" class="footer__link">
+                        <img src="./assets/icons/tele.svg" alt="Telegram" class="tele">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
