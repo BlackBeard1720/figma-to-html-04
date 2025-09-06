@@ -111,7 +111,7 @@ a {
 }
 /* --------------------------------------------LEFT----------------------------------------------------- */
 .web3 {
-    width: 45%;
+    width: 46%;
 }
 
 .web3__heading {
@@ -123,6 +123,7 @@ a {
 }
 
 .web3__list {
+    margin-left: 12px;
     list-style: disc inside;
 }
 
@@ -130,6 +131,10 @@ a {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
+}
+
+.web3__item + .web3__item {
+    margin-top: 12px;
 }
 
 .web3__item::marker {
@@ -613,9 +618,11 @@ a {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.5;
+    white-space: nowrap;
 }
 
 .detail__list {
+    margin-left: 10px;
     list-style-type: disc;
     list-style-position: inside;
 }
@@ -1199,7 +1206,7 @@ a {
 .giveaway__desc {
     font-weight: 500;
     font-size: 1.8rem;
-    line-height: 1.5rem;
+    line-height: 1.5;
     color: var(--textColor);
     margin-top: 8px;
 }
