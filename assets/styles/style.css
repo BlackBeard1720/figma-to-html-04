@@ -28,7 +28,7 @@ a {
 /* ================================================================== Header ================================================================== */
 /* --------------------------------------------Header top----------------------------------------------------- */
 .header {
-    background: url('/assets/images/bg.png') no-repeat center/cover;
+    background: url('../images/bg.png') no-repeat center/cover;
 }
 
 .header__top {
@@ -428,7 +428,7 @@ a {
 /* ================================================================== webWallet ================================================================== */
 .webWallet {
     padding: 128px 0 64px;
-    background: url('/assets/images/bg.png') no-repeat center/cover;
+    background: url('../images/bg.png') no-repeat center/cover;
 }
 
 .webWallet__wrapper {
@@ -995,7 +995,7 @@ a {
 /* ================================================================== ROADMAP ================================================================== */
 .roadmap {
     padding: 128px 0 64px;
-    background: url('/assets/images/bg.png') no-repeat center/cover;
+    background: url('../images/bg.png') no-repeat center/cover;
 }
 
 .roadmap__wrapper {
@@ -1233,7 +1233,7 @@ a {
     padding: 24px 0;
     position: relative;
     z-index: 0;
-    background: url(/assets/images/bg.png) no-repeat center bottom/cover;
+    background: url('../images/bg.png') no-repeat center bottom/cover;
     overflow: hidden;
 }
 
