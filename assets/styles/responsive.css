@@ -1,0 +1,121 @@
+/* PC */
+@media (min-width: 992px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 767.98px) {
+    .navbar-pc {
+        display: none;
+    }
+    .language-pc {
+        display: none;
+    }
+    .menu-overlay {
+       position: fixed;
+       background-color: rgba(0, 0, 0, 0.5);
+       inset: 0;
+       z-index: 1;
+       opacity: 0;
+       visibility: hidden;
+       transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    .menu-checkbox:checked ~ .menu-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+    .drawer {
+        padding: 24px;
+        position: fixed;
+        background-color: #D3D7DC;
+        inset: 0 0 0 20%;
+        z-index: 20;
+        transform: translateX(100%);
+    }
+    .menu-checkbox:checked ~ .drawer {
+        transform: translateX(0);
+    }
+    .menu-icon {
+        height: 44px;
+        width: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: #fff;
+    }
+    .drawer__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #nav__list--mobi {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nav__link {
+        display: block;
+    }
+    .header__bottom {
+        padding: 0 0 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 60.5px;
+    }
+    .header__top {
+        padding: 34px 0;
+    }
+    .web3__heading {
+        font-size: 4rem;
+    }
+    .web3__item {
+        font-size: 1.4rem;
+    }
+    .web3 {
+        width: 100%;
+    }
+    .stage1 {
+        padding-right: 0;
+    }
+    .form__heading {
+        font-size: 2.4rem;
+        width: 301px;
+    }
+    .exchange-rate__text {
+        font-size: 1.2rem;
+    }
+    .form__exchange-rate {
+        width: 311px;
+    }
+    .form__btn {
+        width: 151.5px;
+        height: 44px;
+    }
+    .input-pay__wrapper {
+        width: 205px;
+    }
+    .stage1__form {
+        padding: 24px 16px;
+        width: 343px;
+        height: 601px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .stage1__btn {
+        width: 311px;
+    }
+    .stage1__link {
+        font-size: 1.4rem;
+    }
+
+
+    .Rabbit-NFT__heading {
+        font-size: 3.2rem;
+    }
+   
+}
