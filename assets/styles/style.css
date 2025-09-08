@@ -648,15 +648,21 @@ a {
     flex-direction: column;
     row-gap: 24px;
 }
-
+.detail__subtitle {
+    white-space: nowrap;
+}
 .detail__bold,
 .detail__subtitle {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.5;
-    white-space: nowrap;
 }
 
+.detail__subtext {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
 .detail__list {
     margin-left: 10px;
     list-style-type: disc;
@@ -1319,9 +1325,18 @@ a {
 }
 
 .footer__img {
-    width: 120px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
+}
+
+.appstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
 }
 

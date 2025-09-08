@@ -3,6 +3,9 @@
     .mobile-menu {
         display: none;
     }
+    .rmb {
+        display: none;
+    }
 }
 
 
@@ -117,5 +120,343 @@
     .Rabbit-NFT__heading {
         font-size: 3.2rem;
     }
+    .Rabbit-NFT__desc {
+        font-size: 1.6rem;
+        width: 343px;
+        margin: 0 auto;
+        margin-top: 8px;
+    }
+    .Rabbit-NFT__list {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .Rabbit-NFT__img-bg {
+        width: 311px;
+        height: 311px;
+        border-radius: 18.2px;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+    .Rabbit-NFT {
+        padding: 32px 0 68px;
+    }
+    .webWallet {
+        padding: 64px 0 32px;
+    }
+    .webWallet__wrapper {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .webWallet__media {
+        width: 100%;
+    }
+    .webWallet__content {
+        width: 100%;
+        row-gap: 24px;
+    }
+    .webWallet__heading {
+        font-size: 3.2rem;
+    }
+    .webWallet__desc {
+        margin-top: 8px;
+        font-size: 1.4rem;
+    }
+    .webWallet__lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        align-items: flex-start;
+    }
+    .webWallet__item {
+        row-gap: 9px;
+    }
+
+    .webWallet__item:nth-child(1) .webWallet__title,
+    .webWallet__item:nth-child(2) .webWallet__title,
+    .webWallet__item:nth-child(3) .webWallet__title {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    .product__heading {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .product__heading-small {
+        font-size: 2.4rem;
+    }
+    .product__heading-small::before,
+    .product__heading-small::after {
+        width: 53.5px;
+    }
+    .product__wrapper {
+        row-gap: 32px;
+    }
+    .product__detail {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.6fr 0.7fr;
+        row-gap: 20px;
+        padding: 0;
+        border: none;
+    }
+    .detail__heading {
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    .detail__bold,
+    .detail__item,
+    .detail__subtitle {
+        font-size: 1.4rem;
+        white-space: normal;
+    }
    
+    .detail__bottom {
+        padding: 0;
+    }
+    .row-items {
+        grid-template-columns: repeat(3, minmax(99px, 1fr));
+    }
+    .detail__bottom {
+        margin-top: 16px;
+        border: none;
+    }
+
+    .detail__col:nth-child(2) {
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+    }
+    .product__detail::after {
+        content: none;   
+    }
+    .detail__col {
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(40px);
+        padding: 24px 16px;
+    }
+
+    .detail__col:nth-child(3) .detail__top:first-child,
+    .detail__top:first-child {
+        box-sizing: content-box;
+        padding: 0 0 16px;
+        height: 24px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .token__heading {
+        font-size: 3.463rem;
+    }
+    .token__content {
+        padding: 16px;
+        height: auto;
+        border-radius: 12px;
+    }
+    .token__wrapper {
+        padding: 32px 0;
+    }
+    .token__inner {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+    .token__list {
+        grid-template-columns: 1fr;
+        padding: 0;
+        border-bottom: initial;
+    }
+    .token__item {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+        padding-bottom: 24px;
+        padding-top: 24px;
+        gap: 4px;
+    }
+    .token__list:nth-child(3) .token__item:nth-child(2) {
+        border-bottom: initial;
+        padding-bottom: 0;
+    }
+    .token__list:nth-child(1) .token__item:nth-child(1) {
+        padding-top: initial;
+    }
+    .token__name {
+        font-size: 1.2rem;
+    }
+    .token__type {
+        font-size: 1.6rem;
+    }
+    .token__heading-chart {
+        font-size: 1.6rem;
+        margin-top: 24px;
+    }
+    .token__media {
+        height: 308px;
+        border-radius: 12px;
+    }
+    .chart {
+        margin-top: 24px;
+    }
+    .pie-chart {
+        width: 162.63px;
+        height: 162.63px;
+    }
+    .percentage {
+        font-size: 1.4rem;
+    }
+    .leader-presale {
+        height: 17px;
+        left: -24px;
+        top: 64px;
+    }
+    .label-presale {
+        top: 16px;
+        left: -63px;
+    }
+    .label-airdrop {
+        top: 95px;
+        left: -71px;
+    }
+    .leader-airdrop {
+        left: -25px;
+        top: 135px;
+        width: 55px;
+        height: 11px;
+    }
+    .label-team {
+        top: 172px;
+        left: 9px;
+    }
+    .leader-team {
+        left: 48px;
+        bottom: -22px;
+    }
+    .leader-advisor {
+        right: 49px;
+        bottom: -30.5px;
+    }
+    .label-advisor {
+        right: -12px;
+        top: 179px;
+    }
+    .leader-stacking {
+        right: 6px;
+        top: 140px;
+        width: 19px;
+    }
+    .label-stacking {
+        top: 129px;
+        right: -67px;
+    }
+    .leader-cashback {
+        right: -14px;
+        top: 90.5px;
+        width: 18px;
+    }
+    .label-cashback {
+        right: -72px;
+        top: 49px;
+    }
+    .leader-reserve {
+        right: 5px;
+        top: 14px;
+        width: 30px;
+    }
+    .label-reserve {
+        top: 2px;
+        right: -60px;
+    }
+    .roadmap {
+        padding: 32px 0;
+    }
+    .timeline {
+        grid-template-columns: 0.16fr 1fr
+    }
+/* ================================================================== ROADMAP RESPONSIVE ================================================================== */
+    .roadmap__wrapper {display: none;}
+    .rmb__heading {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 125%;
+        color: #53006B;
+    }
+    .divider {
+        width: 49px;
+        height: 1175px;
+    }
+    .timeline__card {
+        border-radius: 12px;
+    }
+    .rmb__container {
+        padding: 16px;
+    }
+    .timeline__title {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+    .timeline__item {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 10px;
+        font-size: 1.4rem;
+    }
+    .timeline__item::before {
+        display: inline-block;
+        content: "";
+        flex: 0 0 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #F5BD1F;
+        margin-top: 8px;
+    }
+    .timeline__list {
+        row-gap: 12px;
+    }
+
+    .rmb__wrapper {
+        margin-top: 32px;
+        display: flex;      
+    }
+    .timeline__wrapper {
+        padding: 16px;
+    }
+    .rmb__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .rmb {
+        padding-bottom: 32px;
+    }
+    .giveaway {
+        padding: 0;
+    }
+    .giveaway__wrapper {
+        padding: 24px;
+    }
+    .giveaway__heading {
+        font-size: 3.2rem;
+    }
+    .giveaway__desc {
+        font-size: 1.4rem;
+    }
+    .giveaway__inner {
+        align-items: center;
+    }
+    .giveaway__content {
+        width: 100%;
+    }
+    .giveaway__desc {
+        width: 295px;
+    }
+    .giveaway__cta {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 32px 0; 
+    }
+    .footer__wrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
 }
